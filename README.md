@@ -13,3 +13,5 @@ The cache.json file and the artists.csv file are the files for storaging the dat
 The templates folder include three html files for interacting.
 
 The app.py file utilizes flask to display the data.
+
+And Here is the demo video link: https://drive.google.com/file/d/1h6h6B5rUvc6X7Mi6e-9ExnfMtP4EYCY6/view?usp=sharing
