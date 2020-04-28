@@ -1,0 +1,40 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF8"/>
+    <title>Songs: Results</title>
+</head>
+
+<style> 
+    body{font-family:'Open Sans'; text-align:center;}  
+    </style>
+
+<body>
+    <h1>Here are your results!</h1>
+    <div class="center"><img src="https://static.billboard.com/files/media/best-songs-of-2019-billboard-fea-1500-768x433.jpg" width="50%" alt="songs" /></div>
+    <br>
+    <table border="1" cellpadding="3" cellspacing="0" style="width: 80%;margin:auto">
+        <tr>
+            <th>Track</th>
+            <th>Artist</th>
+            <th>Rank</th>
+        </tr>
+        {% for row in results %}
+        <tr>
+            <td>{{row[0]}}</td>
+            <td>{{row[1]}}</td>
+            <td>{{row[2]}}</td>
+        </tr>
+        {% endfor %}
+    </table>
+</body>
+
+
+
+<footer>
+    <br>
+    <br>
+    <p><div class="center">© 2020 Ziqi Li</div></p>
+</footer>
+</html>
